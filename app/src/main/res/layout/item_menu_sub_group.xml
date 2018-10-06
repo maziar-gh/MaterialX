@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.balysv.materialripple.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lyt_parent"
+    style="@style/RippleStyleDark"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/spacing_middle"
+        android:paddingLeft="@dimen/spacing_large"
+        android:paddingRight="@dimen/spacing_large"
+        android:paddingTop="@dimen/spacing_middle">
+
+        <View
+            android:layout_width="@dimen/spacing_xmlarge"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:id="@+id/item_menu_sub_group_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/grey_10"
+            tools:text="Person Name" />
+
+        <ImageView
+            android:id="@+id/item_menu_sub_group_badge"
+            android:layout_width="@dimen/spacing_xmedium"
+            android:layout_height="@dimen/spacing_xmedium"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/spacing_xmlarge"
+            android:layout_marginRight="@dimen/spacing_xmlarge"
+            android:tint="@color/colorAccentDark"
+            app:srcCompat="@drawable/shape_circle" />
+
+    </LinearLayout>
+
+</com.balysv.materialripple.MaterialRippleLayout>

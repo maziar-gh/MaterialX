@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_inbox"
+            android:checked="true"
+            android:icon="@drawable/ic_move_to_inbox"
+            android:title="All inboxes"
+            app:actionLayout="@layout/badge_navigation_plain" />
+    </group>
+
+    <group
+        android:id="@+id/grp_2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_inbox"
+            android:title="Inbox"
+            app:actionLayout="@layout/badge_navigation_plain" />
+        <item
+            android:id="@+id/nav_priority_inbox"
+            android:icon="@drawable/ic_label"
+            android:title="Priority inbox"
+            app:actionLayout="@layout/badge_navigation_colored" />
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/ic_peoples"
+            android:title="Social"
+            app:actionLayout="@layout/badge_navigation_colored" />
+    </group>
+
+
+    <item
+        android:checkableBehavior="single"
+        android:title="All labels">
+
+        <group
+            android:id="@+id/grp_3"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_starred"
+                android:icon="@drawable/ic_star"
+                android:title="Starred" />
+            <item
+                android:id="@+id/nav_sent"
+                android:icon="@drawable/ic_send"
+                android:title="Sent" />
+            <item
+                android:id="@+id/nav_spam"
+                android:icon="@drawable/ic_report"
+                android:title="Spam"
+                app:actionLayout="@layout/badge_navigation_plain" />
+            <item
+                android:id="@+id/nav_trash"
+                android:icon="@drawable/ic_delete"
+                android:title="Trash" />
+        </group>
+    </item>
+
+    <group
+        android:id="@+id/grp_5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Help &amp; Feedback" />
+    </group>
+
+</menu>

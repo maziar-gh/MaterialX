@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="sample_images">
+        <item>@drawable/image_1</item>
+        <item>@drawable/image_2</item>
+        <item>@drawable/image_3</item>
+        <item>@drawable/image_4</item>
+        <item>@drawable/image_5</item>
+
+        <item>@drawable/image_6</item>
+        <item>@drawable/image_7</item>
+        <item>@drawable/image_8</item>
+        <item>@drawable/image_9</item>
+        <item>@drawable/image_10</item>
+
+        <item>@drawable/image_11</item>
+        <item>@drawable/image_12</item>
+        <item>@drawable/image_13</item>
+        <item>@drawable/image_14</item>
+        <item>@drawable/image_15</item>
+    </integer-array>
+
+    <string-array name="sample_images_name">
+        <item>Night Street</item>
+        <item>Architect Desk</item>
+        <item>City Building</item>
+        <item>Computer Keyboard</item>
+        <item>Grunge Window</item>
+
+        <item>Park Bench</item>
+        <item>Table Cocktails</item>
+        <item>Side Park</item>
+        <item>Hanging Clothes</item>
+        <item>Coffee Camera</item>
+
+        <item>Morning Flower</item>
+        <item>Foggy Hill</item>
+        <item>The Backpacker</item>
+        <item>River Forest</item>
+        <item>Mist Mountain</item>
+    </string-array>
+
+    <integer-array name="people_images">
+        <item>@drawable/photo_male_1</item>
+        <item>@drawable/photo_male_2</item>
+        <item>@drawable/photo_female_1</item>
+        <item>@drawable/photo_female_2</item>
+        <item>@drawable/photo_male_3</item>
+
+        <item>@drawable/photo_female_3</item>
+        <item>@drawable/photo_male_4</item>
+        <item>@drawable/photo_female_4</item>
+        <item>@drawable/photo_female_5</item>
+        <item>@drawable/photo_male_5</item>
+
+        <item>@drawable/photo_female_6</item>
+        <item>@drawable/photo_male_6</item>
+        <item>@drawable/photo_male_7</item>
+        <item>@drawable/photo_female_7</item>
+        <item>@drawable/photo_female_8</item>
+    </integer-array>
+
+    <string-array name="people_names">
+        <item>Anderson Thomas</item>
+        <item>Adams Green</item>
+        <item>Laura Michelle</item>
+        <item>Betty L</item>
+        <item>Miller Wilson</item>
+
+        <item>Garcia Lewis</item>
+        <item>Roberts Turner</item>
+        <item>Mary Jackson</item>
+        <item>Sarah Scott</item>
+        <item>Kevin John</item>
+
+        <item>Elizabeth</item>
+        <item>Evans Collins</item>
+        <item>Roberts</item>
+        <item>Betty C</item>
+        <item>Susan Lee</item>
+    </string-array>
+
+    <string-array name="strings_short">
+        <item>Proin Eleifend Libero</item>
+        <item>Placerat nec elit</item>
+        <item>Fringilla ornare finibus</item>
+        <item>Convallis nec mollis</item>
+        <item>Vestibulum turpis nec</item>
+        <item>Sed malesuada volutpat</item>
+        <item>Leo ut semper vulputate</item>
+        <item>Maecenas a lorem in</item>
+        <item>Tincidunt est eros</item>
+        <item>Amet est sollicitudin</item>
+    </string-array>
+
+    <string-array name="general_date">
+        <item>05 Des 2015</item>
+        <item>22 Apr 2013</item>
+        <item>14 Sep 2015</item>
+        <item>11 Feb 2015</item>
+        <item>29 Aug 2014</item>
+        <item>10 Nov 2015</item>
+        <item>23 Jun 2015</item>
+        <item>20 Jul 2015</item>
+        <item>09 Mar 2015</item>
+        <item>01 Jan 2016</item>
+    </string-array>
+
+    <string-array name="timezone">
+        <item>Pacific Standard Time</item>
+        <item>ASEAN Common Time</item>
+        <item>Atlantic Standard Time</item>
+        <item>China Standard Time</item>
+        <item>Eastern Standard Time </item>
+        <item>Greenwich Mean Time</item>
+        <item>Iran Standard Time</item>
+        <item>Middle European Time</item>
+        <item>Malaysia Time</item>
+        <item>Western European Time</item>
+    </string-array>
+
+    <string-array name="states">
+        <item>State</item>
+        <item>AL</item>
+        <item>AK</item>
+        <item>AR</item>
+        <item>CA</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>NE</item>
+        <item>NE</item>
+        <item>NY</item>
+        <item>OH</item>
+        <item>TX</item>
+        <item>VA</item>
+        <item>WA</item>
+    </string-array>
+
+    <string-array name="month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <integer-array name="social_images">
+        <item>@drawable/img_social_android</item>
+        <item>@drawable/img_social_apple</item>
+        <item>@drawable/img_social_behance</item>
+        <item>@drawable/img_social_blogger</item>
+        <item>@drawable/img_social_deviantart</item>
+
+        <item>@drawable/img_social_dribbble</item>
+        <item>@drawable/img_social_envato</item>
+        <item>@drawable/img_social_evernote</item>
+        <item>@drawable/img_social_facebook</item>
+        <item>@drawable/img_social_flickr</item>
+
+        <item>@drawable/img_social_instagram</item>
+        <item>@drawable/img_social_linkedin</item>
+        <item>@drawable/img_social_pinterest</item>
+        <item>@drawable/img_social_skype</item>
+        <item>@drawable/img_social_soundcould</item>
+
+        <item>@drawable/img_social_tumblr</item>
+        <item>@drawable/img_social_twitter</item>
+        <item>@drawable/img_social_vimeo</item>
+        <item>@drawable/img_social_youtube</item>
+    </integer-array>
+
+    <string-array name="social_names">
+        <item>Android</item>
+        <item>Apple</item>
+        <item>Behance</item>
+        <item>Blogger</item>
+        <item>Deviantart</item>
+
+        <item>Dribbble</item>
+        <item>Envato</item>
+        <item>Evernote</item>
+        <item>Facebook</item>
+        <item>Flickr</item>
+
+        <item>Instagram</item>
+        <item>Linkedin</item>
+        <item>Pinterest</item>
+        <item>Skype</item>
+        <item>Soundcould</item>
+
+        <item>Tumblr</item>
+        <item>Twitter</item>
+        <item>Vimeo</item>
+        <item>Youtube</item>
+    </string-array>
+
+    <!--shopping category data-->
+    <integer-array name="shop_category_icon">
+        <item>@drawable/ic_devices</item>
+        <item>@drawable/ic_accessibility</item>
+        <item>@drawable/ic_face</item>
+        <item>@drawable/ic_child_friendly</item>
+        <item>@drawable/ic_weekend</item>
+
+        <item>@drawable/ic_pool</item>
+        <item>@drawable/ic_confirmation_number</item>
+        <item>@drawable/ic_restaurant</item>
+    </integer-array>
+
+    <integer-array name="shop_category_bg">
+        <item>@drawable/image_4</item>
+        <item>@drawable/image_19</item>
+        <item>@drawable/image_20</item>
+        <item>@drawable/image_21</item>
+        <item>@drawable/image_8</item>
+
+        <item>@drawable/image_22</item>
+        <item>@drawable/image_23</item>
+        <item>@drawable/image_24</item>
+    </integer-array>
+
+    <string-array name="shop_category_title">
+        <item>Gadgets and Computers</item>
+        <item>Fashion</item>
+        <item>Beauty and Health</item>
+        <item>Babies and Kids</item>
+        <item>Home and Garden</item>
+
+        <item>Sports and Hobby</item>
+        <item>Ticket and Voucher</item>
+        <item>Service and Food</item>
+    </string-array>
+
+    <string-array name="shop_category_brief">
+        <item>100k Items</item>
+        <item>655k Items</item>
+        <item>221k Items</item>
+        <item>85k Items</item>
+        <item>725k Items</item>
+
+        <item>932k Items</item>
+        <item>475k Items</item>
+        <item>362k Items</item>
+    </string-array>
+
+    <!--shopping product data-->
+    <integer-array name="shop_product_image">
+        <item>@drawable/image_shop_1</item>
+        <item>@drawable/image_shop_2</item>
+        <item>@drawable/image_shop_3</item>
+        <item>@drawable/image_shop_4</item>
+        <item>@drawable/image_shop_5</item>
+
+        <item>@drawable/image_shop_6</item>
+        <item>@drawable/image_shop_7</item>
+        <item>@drawable/image_shop_8</item>
+    </integer-array>
+
+    <string-array name="shop_product_title">
+        <item>Fashion B07 Keara 933</item>
+        <item>Coup Hoodie Jacket</item>
+        <item>Gala Suede Jacket Flower</item>
+        <item>Qonnoq Checked Blouse</item>
+        <item>Java Seven Belladji 674</item>
+
+        <item>Kanvas Sneaker Shoes</item>
+        <item>Clarks Idamarie Faye Lea</item>
+        <item>Piero Rush Women</item>
+    </string-array>
+
+    <string-array name="shop_product_price">
+        <item>$ 48.90</item>
+        <item>$ 89.00</item>
+        <item>$ 66.80</item>
+        <item>$ 34.50</item>
+        <item>$ 44.90</item>
+
+        <item>$ 59.00</item>
+        <item>$ 78.20</item>
+        <item>$ 96.00</item>
+    </string-array>
+
+    <!--music data-->
+    <integer-array name="album_cover">
+        <item>@drawable/image_20</item>
+        <item>@drawable/image_2</item>
+        <item>@drawable/image_3</item>
+        <item>@drawable/image_4</item>
+        <item>@drawable/image_21</item>
+
+        <item>@drawable/image_16</item>
+        <item>@drawable/image_7</item>
+        <item>@drawable/image_17</item>
+        <item>@drawable/image_18</item>
+        <item>@drawable/image_10</item>
+
+        <item>@drawable/image_11</item>
+        <item>@drawable/image_12</item>
+        <item>@drawable/image_19</item>
+        <item>@drawable/image_14</item>
+        <item>@drawable/image_15</item>
+    </integer-array>
+
+    <string-array name="song_name">
+        <item>All The Arguments</item>
+        <item>Proud of You</item>
+        <item>Morning Reasons</item>
+        <item>Drowsy Smart Mouth</item>
+        <item>Being Anything Else</item>
+
+        <item>Fist Full Of Mysteries</item>
+        <item>5 Dollar Town</item>
+        <item>Eternal Soul</item>
+        <item>Living is Going Down</item>
+        <item>Deadly Joy</item>
+
+        <item>Screaming Skill</item>
+        <item>Escape Of The Justice</item>
+        <item>Silent Fight</item>
+        <item>Distractions Have No Answers</item>
+        <item>Lead Sm</item>
+    </string-array>
+
+    <string-array name="album_name">
+        <item>The Mother</item>
+        <item>Not Advance</item>
+        <item>Coming Back</item>
+        <item>Suspicions</item>
+        <item>Desert Of Lost</item>
+
+        <item>Glances</item>
+        <item>Some Doubts</item>
+        <item>Morning</item>
+        <item>Love More Deeply</item>
+        <item>Quite</item>
+
+        <item>Backseat</item>
+        <item>Peace</item>
+        <item>Ambitions </item>
+        <item>Knocking At</item>
+        <item>Synchronisation</item>
+    </string-array>
+
+</resources>

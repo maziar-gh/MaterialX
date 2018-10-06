@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_trending"
+            android:icon="@drawable/ic_whatshot"
+            android:title="Trending" />
+        <item
+            android:id="@+id/nav_latest"
+            android:icon="@drawable/ic_schedule"
+            android:title="Latest" />
+        <item
+            android:id="@+id/nav_highlight"
+            android:icon="@drawable/ic_highlight"
+            android:title="Highlight" />
+    </group>
+    <group
+        android:id="@+id/grp_2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Help" />
+    </group>
+
+</menu>

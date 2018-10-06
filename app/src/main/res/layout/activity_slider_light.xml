@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/seekbar_accent_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_large"
+            android:max="100"
+            android:progress="50"
+            android:thumb="@drawable/seek_thumb_accent" />
+
+        <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/seekbar_primary_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_large"
+            android:max="100"
+            android:progress="20"
+            android:thumb="@drawable/seek_thumb_primary" />
+
+        <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/seekbar_accent_light_outline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_large"
+            android:max="100"
+            android:progress="50"
+            android:thumb="@drawable/seek_thumb_accent_outline" />
+
+        <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/seekbar_primary_light_outline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_large"
+            android:max="100"
+            android:progress="20"
+            android:thumb="@drawable/seek_thumb_primary_outline" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+

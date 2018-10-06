@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_activity"
+            android:title="Activity" />
+        <item
+            android:id="@+id/nav_explore"
+            android:title="Explore" />
+        <item
+            android:id="@+id/nav_photos"
+            android:title="Photos" />
+
+        <item
+            android:id="@+id/nav_videos"
+            android:title="Videos" />
+
+        <item
+            android:id="@+id/nav_message"
+            android:title="Message" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings" />
+    </group>
+
+</menu>

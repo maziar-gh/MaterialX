@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+
+        <layer-list>
+            <item android:bottom="4dp" android:left="4dp" android:right="4dp" android:top="4dp">
+                <shape android:shape="rectangle">
+                    <corners android:bottomLeftRadius="30dp" android:bottomRightRadius="30dp" android:radius="60dp" android:topLeftRadius="30dp" android:topRightRadius="30dp" />
+                    <solid android:color="@color/indigo_400" />
+                    <padding android:bottom="0dp" android:left="25dp" android:right="25dp" android:top="0dp" />
+                    <size android:width="70dp" android:height="40dp" />
+                </shape>
+            </item>
+        </layer-list>
+
+    </item>
+
+    <item>
+        <layer-list>
+            <item android:bottom="4dp" android:left="4dp" android:right="4dp" android:top="4dp">
+                <shape android:shape="rectangle">
+                    <corners android:bottomLeftRadius="30dp" android:bottomRightRadius="30dp" android:radius="60dp" android:topLeftRadius="30dp" android:topRightRadius="30dp" />
+                    <stroke android:width="2dp" android:color="@color/indigo_400" />
+                    <solid android:color="@android:color/transparent" />
+                    <padding android:bottom="0dp" android:left="25dp" android:right="25dp" android:top="0dp" />
+                    <size android:width="70dp" android:height="40dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:ellipsize="marquee"
+    android:gravity="center_vertical"
+    android:singleLine="true"
+    android:text="asdasdasd"
+    android:textAlignment="inherit"
+    android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />

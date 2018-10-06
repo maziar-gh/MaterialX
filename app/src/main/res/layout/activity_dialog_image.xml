@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/white"
+            app:contentInsetStartWithNavigation="0dp"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/Toolbar.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_10" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/spacing_xlarge"
+            android:paddingRight="@dimen/spacing_xlarge">
+
+            <Button
+                android:id="@+id/dialog_image_full"
+                style="@style/Button.Primary.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spacing_xxlarge"
+                android:background="@drawable/btn_rounded_grey_outline"
+                android:text="IMAGE FULL"
+                android:textColor="@color/grey_40" />
+
+            <Button
+                android:id="@+id/dialog_image_center"
+                style="@style/Button.Primary.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spacing_xxlarge"
+                android:background="@drawable/btn_rounded_grey_outline"
+                android:text="IMAGE CENTER"
+                android:textColor="@color/grey_40" />
+
+            <Button
+                android:id="@+id/dialog_image_share"
+                style="@style/Button.Primary.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spacing_xxlarge"
+                android:background="@drawable/btn_rounded_grey_outline"
+                android:text="IMAGE SHARE"
+                android:textColor="@color/grey_40" />
+
+            <Button
+                android:id="@+id/dialog_image_quotes"
+                style="@style/Button.Primary.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spacing_xxlarge"
+                android:background="@drawable/btn_rounded_grey_outline"
+                android:text="IMAGE QUOTES"
+                android:textColor="@color/grey_40" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

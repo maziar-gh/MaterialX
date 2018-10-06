@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--menu listed below is based on https://material.io/guidelines/components/-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bottom_navigation"
+            android:icon="@drawable/ic_view_column"
+            android:title="Bottom Navigation" />
+
+        <item
+            android:id="@+id/nav_bottom_sheet"
+            android:icon="@drawable/ic_call_to_actio"
+            android:title="Bottom Sheet" />
+
+        <item
+            android:id="@+id/nav_buttons"
+            android:icon="@drawable/ic_touch_app"
+            android:title="Buttons" />
+
+        <item
+            android:id="@+id/nav_cards"
+            android:icon="@drawable/ic_note"
+            android:title="Cards" />
+
+        <item
+            android:id="@+id/nav_chips"
+            android:icon="@drawable/ic_label"
+            android:title="Chips" />
+
+        <item
+            android:id="@+id/nav_dialogs"
+            android:icon="@drawable/ic_picture_in_picture"
+            android:title="Dialogs" />
+
+        <item
+            android:id="@+id/nav_expansion_panels"
+            android:icon="@drawable/ic_arrow_downward"
+            android:title="Expansion panels" />
+
+        <item
+            android:id="@+id/nav_grid_lists"
+            android:icon="@drawable/ic_view_modul"
+            android:title="Grid lists" />
+
+        <item
+            android:id="@+id/nav_lists"
+            android:icon="@drawable/ic_view_stream"
+            android:title="Lists" />
+
+        <item
+            android:id="@+id/nav_pickers"
+            android:icon="@drawable/ic_event"
+            android:title="Pickers" />
+
+        <item
+            android:id="@+id/nav_progress"
+            android:icon="@drawable/ic_settings_backup_restore"
+            android:title="Progress &amp; activity" />
+
+        <item
+            android:id="@+id/nav_sliders"
+            android:icon="@drawable/ic_tune"
+            android:title="Sliders" />
+
+        <item
+            android:id="@+id/nav_snackbars_toast"
+            android:icon="@drawable/ic_wb_iridescent"
+            android:title="Snackbars &amp; toasts" />
+
+        <item
+            android:id="@+id/nav_steppers"
+            android:icon="@drawable/ic_timeline"
+            android:title="Steppers" />
+
+        <item
+            android:id="@+id/nav_tabs"
+            android:icon="@drawable/ic_tabs"
+            android:title="Tabs" />
+
+        <item
+            android:id="@+id/nav_forms"
+            android:icon="@drawable/ic_assignment"
+            android:title="Form" />
+
+        <item
+            android:id="@+id/nav_toolbars"
+            android:icon="@drawable/ic_web_asset"
+            android:title="Toolbars" />
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+        </menu>
+    </item>
+
+</menu>
